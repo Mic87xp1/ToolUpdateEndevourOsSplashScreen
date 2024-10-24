@@ -13,3 +13,13 @@ The aim of this tool is to add the option quiet splash to the cmdline for the up
 #### Important!
 **This script work only with SystemD bootloader, it does not work with GRUB**
 
+### How to use it
+
+It is necessary to execute the tools as SuperUser.
+
+    git clone https://github.com/Mic87xp1/ToolUpdateEndevourOsSplashScreen.git
+    cd ToolUpdateEndevourOsSplashScreen/tools
+    chmod +x appendSplashOptions.sh
+	sudo ./appendSplashOptions.sh
+    
+
